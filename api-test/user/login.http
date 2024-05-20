@@ -1,0 +1,17 @@
+### Login with invalid credentials
+POST http://localhost:8080/login
+Content-Type: application/json
+
+{
+  "email": "test@test.com",
+  "password": "invalidtest"
+}
+
+### Login with valid credentials
+POST http://localhost:8080/login
+Content-Type: application/json
+
+{
+  "email": "erkin@test.com",
+  "password": "test"
+}

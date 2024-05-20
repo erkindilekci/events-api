@@ -1,0 +1,10 @@
+POST http://localhost:8080/events
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZXhhbXBsZS5jb20iLCJleHAiOjE2OTkyODQzNDMsInVzZXJJZCI6MX0.GtpnS_WUOoJQ7wtcBQ4nL1w9q1XKuloePjvEr4aZom8
+
+{
+  "name": "My first event",
+  "description": "My first event's description",
+  "location": "My first event's location",
+  "dateTime": "2024-05-12T12:32:12.000Z"
+}

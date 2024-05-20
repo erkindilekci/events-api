@@ -1,0 +1,10 @@
+PUT http://localhost:8080/events/3
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3QyQGV4YW1wbGUuY29tIiwiZXhwIjoxNjk5MjgyODAzLCJ1c2VySWQiOjJ9.0v3T0JovPLtzaDnQ6VwSaR2wyyaWnM-0jY5KjhbLgUs
+
+{
+  "name": "[UPDATED] My first event",
+  "description": "[UPDATED] My first event's description",
+  "location": "[UPDATED] My first event's location",
+  "dateTime": "2024-05-12T12:32:12.000Z"
+}
